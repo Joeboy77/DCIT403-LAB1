@@ -69,23 +69,8 @@ MyBehaviour running - Current time: 2026-01-29 10:30:50
 ...
 ```
 
-### Step 5: Take Screenshot
-While your agent is running, take a screenshot showing the output in your terminal.
 
-### Step 6: Complete Report
-Fill in the `environment_setup_report.md` template with your information.
 
----
-
-## 📦 Deliverables Checklist
-
-Before submitting, ensure you have:
-
-- [ ] Screenshot of running agent (name it `lab1_running_agent.png`)
-- [ ] Python source code (`basic_agent.py` with your credentials removed for security)
-- [ ] Completed environment setup report (half page)
-
----
 
 ## 🔧 Troubleshooting
 
@@ -119,83 +104,4 @@ python3 -c "import spade; print(spade.__version__)"
 ```
 
 ---
-
-## 📚 What You're Learning
-
-This lab teaches you:
-
-1. **SPADE Framework Basics**
-   - Agent creation and lifecycle
-   - Behavior implementation
-   - Asynchronous programming with Python
-
-2. **XMPP Protocol**
-   - Agent communication infrastructure
-   - JID (Jabber ID) structure
-   - Server connectivity
-
-3. **Agent Behaviors**
-   - Periodic behaviors
-   - Autonomous execution
-   - Event-driven programming
-
-4. **Foundation for Future Labs**
-   - This basic agent forms the foundation for:
-     - SensorAgent (Lab 2)
-     - RescueAgent
-     - LogisticsAgent
-     - CoordinatorAgent
-
----
-
-## 🎯 Assessment Criteria (from Lab Manual)
-
-Your LAB 1 submission will be evaluated on:
-
-- **Functional Correctness (40%):** Does your agent run successfully?
-- **Agent Design Quality (25%):** Is your code well-structured and documented?
-- **Coordination & Communication (20%):** Does your agent properly connect to XMPP?
-- **Documentation (15%):** Is your report clear and complete?
-
----
-
-## 📖 Additional Resources
-
-- **SPADE Documentation:** https://spade-mas.readthedocs.io/
-- **XMPP Protocol:** https://xmpp.org/
-- **Python Asyncio:** https://docs.python.org/3/library/asyncio.html
-- **FIPA Standards:** http://www.fipa.org/
-
----
-
-## ⏭️ Next Steps
-
-After completing LAB 1, you'll move to:
-
-**LAB 2: Perception and Environment Modeling**
-- Implement SensorAgent
-- Create simulated disaster environment
-- Generate and log disaster events
-
----
-
-## 📝 Notes
-
-- Keep your XMPP credentials secure - don't share them or commit them to public repositories
-- The agent will run until you press Ctrl+C
-- Make sure to stop the agent properly to avoid connection issues
-- Test your agent multiple times to ensure consistent behavior
-
----
-
-## 🤝 Support
-
-If you encounter issues:
-1. Check the `LAB1_SETUP_GUIDE.md` for detailed instructions
-2. Review the troubleshooting section above
-3. Consult the SPADE documentation
-4. Ask your instructor or TA during lab hours
-
----
-
-**Good luck with your first intelligent agent! 🤖**
+ intelligent agent! 🤖**
